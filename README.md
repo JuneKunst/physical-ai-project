@@ -1,8 +1,8 @@
 # Physical AI Project - Week 1
 
-웹캠 영상을 받아서 간단한 전처리를 적용하는 과제입니다.
+웹캠 영상을 받아서 간단한 전처리를 적용하는 과제 정리
 
-적용한 처리 과정은 다음과 같습니다.
+적용한 처리 과정
 
 1. 웹캠 또는 영상 파일 입력
 2. Grayscale 변환
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 python week1/main.py
 ```
 
-영상 파일로 실행하려면 다음처럼 실행합니다.
+영상 파일로 실행하려면 다음처럼 실행
 
 ```bash
 python week1/main.py --source sample_video.mp4
