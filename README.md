@@ -1,8 +1,17 @@
 # Physical AI Project - Week 1
 
-실시간 영상 입력 파이프라인 과제입니다.
+웹캠 영상을 받아서 간단한 전처리를 적용하는 과제입니다.
 
-## 실행
+적용한 처리 과정은 다음과 같습니다.
+
+1. 웹캠 또는 영상 파일 입력
+2. Grayscale 변환
+3. Gaussian Blur 적용
+4. Canny edge 검출
+5. 원본 화면과 edge 화면을 나란히 출력
+6. 화면에 FPS 표시
+
+## 실행 방법
 
 ```bash
 python -m venv venv
@@ -11,26 +20,23 @@ pip install -r requirements.txt
 python week1/main.py
 ```
 
-## 조작
-
-- `q`: 종료
-- `s`: 현재 화면을 `result.png`로 저장
-
-## 동영상 파일로 대체 실행
+영상 파일로 실행하려면 다음처럼 실행합니다.
 
 ```bash
-python week1/main.py --source sample_video.mp4 --limit-video-fps 30
+python week1/main.py --source sample_video.mp4
 ```
 
-## 제출 구조
+## 조작 방법
+
+- `s`: 현재 화면을 `result.png`로 저장
+- `q`: 종료
+
+## 제출 파일
 
 ```text
 physical-ai-project/
-├── week1/
-│   └── main.py
+├── week1/main.py
 ├── requirements.txt
 ├── README.md
 └── result.png
 ```
-
-`result.png`는 실행 중 `s` 키를 눌러 저장합니다. FPS 수치가 보여야 합니다.
