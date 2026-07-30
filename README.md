@@ -13,7 +13,7 @@ Physical AI 사전캠프 과제를 주차별로 정리한 저장소입니다.
 
 ## 미니 프로젝트
 
-- [MoMA 작품 CSV 챗봇](mini-kaggle-chatbot/README.md): 작품 제목, 작가, 재료와 작품 분류를 검색합니다.
+- [MoMA 작품 CSV 챗봇](mini-kaggle-chatbot/README.md): 작품 이미지, 작가, 재료와 작품 분류를 검색합니다.
 
 ## 실행 방법
 

@@ -1,6 +1,6 @@
 # MoMA CSV 챗봇
 
-MoMA 작품 데이터에서 제목, 작가, 재료와 작품 분류를 검색하는 챗봇입니다.
+MoMA 작품 데이터에서 제목, 작가, 재료와 작품 분류를 검색하고 실제 작품 이미지와 공식 작품 페이지를 확인하는 챗봇입니다.
 
 [Google Colab에서 노트북 열기](https://colab.research.google.com/github/JuneKunst/physical-ai-project/blob/main/mini-kaggle-chatbot/June_MoMA_CSV챗봇.ipynb)
 
